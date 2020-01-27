@@ -11,10 +11,10 @@
 import { Injectable } from '@angular/core';
 import { Fruit } from './fruit';
 import { Observable } from 'rxjs';
-
 import 'rxjs/add/observable/of';
 
 @Injectable()
+
 export class FruitService {
   fruits: Fruit[] = [
     { id: 1, name: 'Mango', pricePerPound: '0.50', quantity: 50 },
@@ -24,10 +24,12 @@ export class FruitService {
     { id: 5, name: 'Kiwis', pricePerPound: '2.00', quantity: 15 }
   ];
 
+
   constructor() { }
 
   getFruits(): Observable<Fruit[]> {
-    return of(this.fruits);
-    //return of(this.fruitList);
+
+    return Observable.of(this.fruits);
+    /*return of(this.fruitList);*/
   }
 }

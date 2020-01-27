@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="row">
+    <h2>Fruit Data</h2>
+    <table class="table table-hover table-striped">
+      <thead class="tbl-header">
+        <tr>
+          <th>Name</th>
+          <th>Color</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{ fruit.name }}</td>
+          <td>{{ fruit.color }}</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Fruit Information</h2>
+    <table class="table table-hover table-striped">
+      <thead class="tbl-header">
+        <tr>
+          <th>Name</th>
+          <th>Color</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let fruit of fruitArray;">
+          <td>{{ fruit.name }}</td>
+          <td>{{ fruit.color }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

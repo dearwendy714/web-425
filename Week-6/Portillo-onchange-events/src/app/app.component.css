@@ -1,14 +1,15 @@
 .parent {
+  background:#CDE9DF;
   height: 100%; width:100%;
 }
 
 .left {
-  background-color: #CDE9DF;
+  background-color: rgba(100, 100, 100, 0.644);
   height:700px;
 }
 
 .right {
-  background-color: rgba(100, 100, 100, 0.644);
+  background-color:white;
   height:700px;
   padding-top:100px;
   text-align: center;
@@ -20,5 +21,5 @@
   left: 0;
   right: 0;
   z-index: 2;
-  color: white;
+  color:black;
 }

@@ -1,9 +1,9 @@
 <!--
 ; ============================================
 ; Title: app.component.html
-; Date: 07 February 2020
+; Date: 10 February 2020
 ; Modified By: Wendy Portillo
-; Description: Output Properties
+; Description: OnChange Events
 ;=============================================
  -->
  <mat-toolbar class="menu" role="header" color="primary">
@@ -11,11 +11,11 @@
     <button mat-button class="toolbar__icon-button mat-button" routerLink="/home">
       <span style="margin-left: 5px !important;" >Home</span>
     </button>
-    <div fxFlex="32"></div>
-    <h2>Wendy's Output Properties</h2>
-    <div fxFlex="32"></div>
+    <div fxFlex="35"></div>
+    <h2>Wendy's onChange Events</h2>
+    <div fxFlex="35"></div>
     <button mat-button class="mat-button">
-      Price
+      Child
     </button>
   </mat-toolbar-row>
 </mat-toolbar>
@@ -25,9 +25,19 @@
   </div>
   <div class="right" fxFlex>
 
-      <h2>AppComponent received: {{ priceQuote?.stockSymbol }} {{ priceQuote?.lastPrice | currency: 'USD' }}</h2>
-      <br><br><br>
-      <app-price-quote (lastPrice)="priceQuoteHandler($event)"></app-price-quote>
+<div class="parent2">
+
+  <h2>Parent</h2>
+  <div>
+    Greeting: <input type="text" [(ngModel)]="myGreeting">
+  </div>
+
+  <div>
+    User name: <input type="text" [(ngModel)]="myUser.name">
+  </div>
+
+  <app-child [greeting]="myGreeting" [user]="myUser"></app-child>
+</div>
 
   </div>
 </div>

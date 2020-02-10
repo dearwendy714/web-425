@@ -3,7 +3,7 @@
 }
 
 .left {
-  background-color: rgba(131, 6, 6, 0.64);
+  background-color: #CDE9DF;
   height:700px;
 }
 
@@ -20,5 +20,5 @@
   left: 0;
   right: 0;
   z-index: 2;
-  color: gold;
+  color:black;
 }

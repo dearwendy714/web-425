@@ -1,7 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
-/**
-* Generated theme by Material Theme Generator
-* https://materialtheme.arcsine.dev
+/* Generated theme by Material Theme Generator*/
+/* https://materialtheme.arcsine.dev
 */
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
 .mat-badge-content {
@@ -1715,18 +1714,18 @@ th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
 .mat-step-header .mat-step-icon-selected,
 .mat-step-header .mat-step-icon-state-done,
 .mat-step-header .mat-step-icon-state-edit {
-  background-color: white;
+  background-color: #873c2c;
   color: white; }
 
 .mat-step-header .mat-step-icon-state-error {
   background-color: transparent;
-  color: white; }
+  color: red; }
 
 .mat-step-header .mat-step-label.mat-step-label-active {
   color: white; }
 
 .mat-step-header .mat-step-label.mat-step-label-error {
-  color: white; }
+  color: red; }
 
 .mat-stepper-horizontal, .mat-stepper-vertical {
   background-color: #393939; }
@@ -1775,7 +1774,7 @@ th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
   background-color: rgba(219, 197, 192, 0.3); }
 
 .mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar {
-  background-color: white; }
+  background-color: #873c2c; }
 
 .mat-tab-group.mat-primary.mat-background-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary.mat-background-primary .mat-ink-bar {
   background-color: white; }
@@ -1801,7 +1800,7 @@ th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
   background-color: rgba(255, 179, 179, 0.3); }
 
 .mat-tab-group.mat-warn .mat-ink-bar, .mat-tab-nav-bar.mat-warn .mat-ink-bar {
-  background-color: white; }
+  background-color: red; }
 
 .mat-tab-group.mat-warn.mat-background-warn .mat-ink-bar, .mat-tab-nav-bar.mat-warn.mat-background-warn .mat-ink-bar {
   background-color: white; }
@@ -1814,7 +1813,7 @@ th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
   background-color: rgba(219, 197, 192, 0.3); }
 
 .mat-tab-group.mat-background-primary .mat-tab-header, .mat-tab-group.mat-background-primary .mat-tab-links, .mat-tab-group.mat-background-primary .mat-tab-header-pagination, .mat-tab-nav-bar.mat-background-primary .mat-tab-header, .mat-tab-nav-bar.mat-background-primary .mat-tab-links, .mat-tab-nav-bar.mat-background-primary .mat-tab-header-pagination {
-  background-color: white; }
+  background-color: #873c2c; }
 
 .mat-tab-group.mat-background-primary .mat-tab-label, .mat-tab-group.mat-background-primary .mat-tab-link, .mat-tab-nav-bar.mat-background-primary .mat-tab-label, .mat-tab-nav-bar.mat-background-primary .mat-tab-link {
   color: white; }
@@ -1862,7 +1861,7 @@ th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
   background-color: rgba(255, 179, 179, 0.3); }
 
 .mat-tab-group.mat-background-warn .mat-tab-header, .mat-tab-group.mat-background-warn .mat-tab-links, .mat-tab-group.mat-background-warn .mat-tab-header-pagination, .mat-tab-nav-bar.mat-background-warn .mat-tab-header, .mat-tab-nav-bar.mat-background-warn .mat-tab-links, .mat-tab-nav-bar.mat-background-warn .mat-tab-header-pagination {
-  background-color: #CDE9DF; }
+  background-color: white; }
 
 .mat-tab-group.mat-background-warn .mat-tab-label, .mat-tab-group.mat-background-warn .mat-tab-link, .mat-tab-nav-bar.mat-background-warn .mat-tab-label, .mat-tab-nav-bar.mat-background-warn .mat-tab-link {
   color: white; }
@@ -1882,7 +1881,7 @@ th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
   background: #393939;
   color: white; }
   .mat-toolbar.mat-primary {
-    background: white;
+    background: #CDE9DF;
     color: white; }
   .mat-toolbar.mat-accent {
     background: #797979;
@@ -1915,7 +1914,7 @@ th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
 
 .mat-snack-bar-container {
   color: rgba(0, 0, 0, 0.87);
-  background: #CDE9DF;
+  background: #fafafa;
   box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12); }
 
 .mat-simple-snackbar-action {

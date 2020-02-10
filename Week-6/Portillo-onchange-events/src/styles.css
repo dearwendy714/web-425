@@ -1887,7 +1887,7 @@ th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
     background: #797979;
     color: white; }
   .mat-toolbar.mat-warn {
-    background: red;
+    background: gray;
     color: white; }
   .mat-toolbar .mat-form-field-underline,
 .mat-toolbar .mat-form-field-ripple,

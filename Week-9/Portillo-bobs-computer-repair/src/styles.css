@@ -1,0 +1,22 @@
+/*
+============================================
+; Author: Wendy Portillo
+; Date:   2/29/2020
+; Description: web-425/Bob's Computer Repair
+;===========================================
+*/
+
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+
+  /* text-align: center; */
+}

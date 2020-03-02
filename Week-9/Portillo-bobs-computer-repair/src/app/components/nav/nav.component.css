@@ -1,0 +1,31 @@
+/*
+============================================
+; Author: Wendy Portillo
+; Date:   2/29/2020
+; Description: web-425/Bob's Computer Repair
+;===========================================
+*/
+
+.menu {
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+button {
+    /* font-weight: bold; */
+    font-size: 16px;
+}
